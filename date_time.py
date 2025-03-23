@@ -113,3 +113,86 @@ date_str = "2025-03-23 12:01:00"
 dt = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
 
 print(dt)
+
+
+
+------------------------- Format datetime ----------------------
+
+In different places date and time represents differently , for ex., d/m/y in UK and m/d/y in US.
+strftime and strptime methods are used to handle this.
+
+--------- strftime() ---------------
+
+strftime() method is avaialble under datetime,date and time classes.It returns formatted string from given datettime ,date or time object.
+It takes one or more format codes and returns formatted string based on it.
+
+%Y: Year (e.g., 2024)
+%m: Month (01-12)
+%d: Day of the month (01-31)
+%H: Hour (00-23)
+%M: Minute (00-59)
+%S: Second (00-59)
+
+import datetime
+
+now = datetime.datetime.now()
+t1 = now.strftime("%H:%M:%S")
+print(t1)   # 15:25:10
+
+dt1 = now.strftime("%d:%m:%y,%H-%M-%S")
+print(dt1)  # 24:09:24,15-25-10
+
+dt2 = now.strftime("%d-%m-%y,%H:%M:%S")
+print(dt2)  # 24-09-24,15:25:10
+
+today = datetime.date.today()
+dt3 = today.strftime("%d:%m:%y,%H-%M-%S")
+print(dt3)  # 24:09:24,00-00-00
+
+time = datetime.time(11,5,34)
+print(time.strftime("%H:%M:%S"))  # 11:05:34
+
+---------- strptime() -----------------------
+
+strptime() method is used to return datetime object from the given string(represents date and time).
+
+It takes two arguments .
+one is given string and another one is format code equivalent to given string in first argument.
+
+%d, %B and %Y format codes are used for day, month(full name) and year respectively.
+
+import datetime
+
+date_string = "December 25, 2019"
+d1 = datetime.datetime.strptime(date_string,"%B %d, %Y")
+print(d1)  # 2019-12-25 00:00:00
+
+dt_string1 = "21 February, 2018"
+d2 = datetime.datetime.strptime(dt_string1,"%d %B, %Y")
+print(d2)  # 2018-02-21 00:00:00
+
+dt_string2 = "21/05/1987,10:08:45"
+dt3 = datetime.datetime.strptime(dt_string2,"%d/%m/%Y,%H:%M:%S")
+print(dt3)  # 1987-05-21 10:08:45
+
+------------------------ pytz modle --------------------
+
+When working on projects we can represent their timezone .
+Rather than trying to handle timezone we cna use third party module pytz.
+
+We can use timezone() method from pytz module.
+
+import datetime
+import pytz
+
+now_time = datetime.datetime.now()
+print(now_time)  # 2024-09-24 15:58:17.556119
+
+tz = pytz.timezone("America/New_York")
+print(tz)  # America/New_York
+
+nw_tz = datetime.datetime.now(tz)
+print(nw_tz)  # 2024-09-24 06:28:17.561291-04:00
+
+tz1 = nw_tz.strftime("%d:%m:%y, %H:%M:%S")
+print(tz1)  # 24:09:24, 06:28:17
