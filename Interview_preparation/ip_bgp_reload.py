@@ -50,7 +50,7 @@ try:
     
     #show out file after reboot
     with open("bgp_after.txt", "w") as file:	
-        file.write(bgp_after_relaod)
+        file.write(bgp_after_reload)
         
     #close the connections:
     net_connect.disconnec()
