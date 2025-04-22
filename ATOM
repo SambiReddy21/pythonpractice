@@ -1,0 +1,45 @@
+Network administrators and operators Uses ATOM to perform Network management, configuration management , Services automation.
+
+ATOM provides various features:
+
+1.Zero touch provisioning
+2.Multi Vendor Support
+3.Workflow and low code automation
+4.Telemetry and Network Analytics
+5.Closed Loop automation
+
+------------ Configuration Management ---------------------------------
+
+ATOM provides configuration management capabilities for various types of devices.It includes Configuration archval,configuration diff,Scheduling.trigger driven configuration sync.
+
+----------------- Topology -----------------------------
+
+ATOM provides topology discovery through CDP/LLDP . The topology displayed hierarchically using resource pools.
+
+------------------ Collection and Reporting ------------------------------
+
+ATOM supports collection of network operations and performance data by using various protocols like SNMP,SNMP TRAP,SYSLOG and TELEMETRY.This information can be viewed in ATOM as reports and can be rendered to Grafana as charts.
+
+----------------- Network Automation --------------------------
+
+ATOM supports model driven network automation for stateful services.This service includes a service model(YANG) and business logic.
+
+------------------- workflow and low code automation ------------------------------------
+ATOM provides graphical designer to design,deploy and execute simple network operations as well as complex operations.Allows adimistrator to perfrom pre and post checks and allows to take approvals.
+
+----------------------------- Telemetry and Network analytics ---------------------------
+
+ATOM allows organizations to collect massive amount of network data from thousands of devices.ATOM can collect dat from the sources incluing Syslog,SNMP and model driven telemetry.This data fromat of a source is normalized to provide a consistent view.Grafana is packaged as part of ATOM to view historical data,observe patterns and predict future trends.
+
+
+----------------------- Multi vendor support ------------------------
+
+ATOM has multi vendor support,It provides support for thousands of devices spanning 45+ vendors and automate all usecases .... like datacenter automation,Secure service ,NFV.
+
+--------------------------- Closed Loop Automation --------------------------------------
+
+ATOM allows administrators to define a baseline behaviour of their network and remediation actions to tigeer if any violation comes.ATOM collects massive amount of network data from multi vendor infrastructure using GoogleProtoBuf and stores it in time series database.ATOM corelation engine monitors and compares collective data with baseline behaviour to detect and deviations.If any violation pre defined remediation action will trigger.Therefor it maintains network consistency.
+
+-------------------- Command templates ----------------------------
+
+Command templates help to quickly design,build and visualize end-to-end network automation.Users can build and execute automated operational and configuration activities that enable to run network health checks by collecting and evaluating operational data from network.
