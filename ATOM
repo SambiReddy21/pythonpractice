@@ -43,3 +43,14 @@ ATOM allows administrators to define a baseline behaviour of their network and r
 -------------------- Command templates ----------------------------
 
 Command templates help to quickly design,build and visualize end-to-end network automation.Users can build and execute automated operational and configuration activities that enable to run network health checks by collecting and evaluating operational data from network.
+
+
+
+#####################################################################################3
+
+I worked as a Senior Software Engineer at Anuta Networks, contributing to the validation of ATOM—a powerful Network Orchestration and Assurance platform supporting both greenfield and brownfield environments. ATOM enables seamless service/device discovery, ZTP, inventory/configuration management, compliance enforcement, and multi-vendor support.
+
+My core responsibilities included validating device inventory and configuration accuracy, service orchestration flows, OS upgrade automation, and compliance policies. 
+I also worked on network monitoring validations (SNMP, syslogs, telemetry), ensuring real-time visibility and closed-loop automation through alert correlation and ticketing integration. I used to maintain existing functional, use case, and regression test suites.
+
+I collaborated with cross-functional teams to drive high-quality releases through extensive manual and automated testing strategies.
