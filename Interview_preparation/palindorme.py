@@ -6,7 +6,7 @@ if num == reverse:
 else:
     print("not palindrome")
 
-st1 = input("Enter a string: ")
+st1 = input("Enter a string: ")()
 if(st1 == st1[::-1]):
     print("This is a palindrome")
 else:

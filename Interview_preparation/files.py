@@ -46,4 +46,4 @@ with open("/home/chsambireddy/gitpython/pythonpractice/Interview_preparation/dem
     print(content)
 with open("/home/chsambireddy/gitpython/pythonpractice/Interview_preparation/demofile.txt", "r") as f:  
     for line in f:
-        print(line.strip()) 
+        print(line.strip()) T

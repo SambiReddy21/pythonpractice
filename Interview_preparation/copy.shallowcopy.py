@@ -11,6 +11,7 @@ Deep Copy: Use copy.deepcopy() to create a deep copy.
 
 from copy import deepcopy
 l1 = [1,2,3,4,[5, 6, 7]]
+      
 templist1 = deepcopy(l1)
 templist1[4][1] = 10
 print("original", l1)
