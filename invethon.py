@@ -125,6 +125,17 @@ for i in range(n):
             numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
 print("Descending order:", numbers)
 
+#+++++++++++++++++++++++++++++++++++++++++++++++++
+l1 = [45,12,89,2,6,5,78,3]
+
+for i in range(0,len(l1)):
+    for j in range(i+1,len(l1)):
+        if l1[i] > l1[j]:
+            l1[i],l1[j] = l1[j],l1[i]
+            
+print(l1)
+print(l1[::-1])
+
 ######################################################################################
 #write a pattern for ID address and find it is right or not
 import re
@@ -204,6 +215,16 @@ Add waits if the page dynamically loads content.
 
 """
 #################################################################################################################################
+# 25[0-5] matches 250 to 255
+
+# 2[0-4][0-9] matches 200 to 249
+
+# 1[0-9]{2} matches 100 to 199
+
+# [1-9]?[0-9] matches 0 to 99 (handles leading digit correctly)
+
+# \. is the dot separator
+
 import re
 
 def is_valid_ip(ip):
@@ -296,3 +317,19 @@ if match:
     print("It is a valid ip address")
 else:
     print("Not a valid ip address")
+    
+###########################################################################################################
+#Write a Python program to find the length of a given list of non-empty strings.
+
+words = ['cat', 'car', 'fear', 'center']
+
+for word in words:
+    print(len(word))
+    print(words.count(word))
+###########################################################################################################
+num = [4, 1, 3, 4, 3, 1, 3, 2, 3, 3, 3, 8, 7]
+
+for i in num:
+    print(num.count(i))
+    
+

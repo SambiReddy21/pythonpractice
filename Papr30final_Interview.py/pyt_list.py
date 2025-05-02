@@ -61,4 +61,39 @@ print(word1[-3])
 print(word1[0::5])
 print(word1[-2::-3])
 print(word1[-3::-4])  
+print(word1[::-1]) 
+print(word1[::-2])  
+print(word1[::-3]) 
+print(word1[::-4])  
+print(word1[::-5])  
+print(word1[::-6])  
+print(word1[::-7]) 
+print(word1[-4:-1])
+print(word1[:4])
     
+word1[1] = "kiwifruit"
+print(word1)   
+word1[6] = "grape"
+print(word1)  
+word1.insert(2, "watermelon")
+print(word1)
+
+word1.append("pomgrantie")
+print(word1)
+
+tropical = ["lemon", "panasa", "testemail"]
+
+word1.extend(tropical)
+print(word1)
+
+word1.remove("panasa")
+print(word1)
+
+word1.pop(1)
+print(word1)
+
+word1.pop()
+print(word1)
+
+del word1[0]
+print(word1)
