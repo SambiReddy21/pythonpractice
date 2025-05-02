@@ -1,0 +1,15 @@
+a = "hello python"
+
+print(a[2:5])
+print(a[3:4])
+print(a[-1])
+print(a[:-1])
+print(a[3:7])
+print(a[2::6])
+print(len(a))
+print(a[3:4])
+print(a[-1::-4])
+print(a[-1::-6])
+print(a[-1::-7])
+print(a[2::9])
+print(a[2::12])
