@@ -8,7 +8,7 @@
 # print(res)
 
 
-# num = 1
+# num = 1   
 # while num <= 8:
 #     print(num)
 #     num += 1
@@ -49,5 +49,15 @@ def is_leap(year):
     
     return(year % 4 == 0 and year %100 != 0) or (year % 400 == 0)
 
-year = int(input())
+year = int(input("Enter a year: "))
 print(is_leap(year))
+
+
+
+n = 5
+a, b = 0, 1
+print("Fibonacci sequence:")
+for _ in range(n):
+    print(a, end= "")
+    a, b = b,  a + b
+    

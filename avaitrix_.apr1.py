@@ -27,4 +27,12 @@ for i in range(0,len(l1)):
 print(l1)
 print(l1[::-1])
         
-    
+
+def reverse_string(s):
+    rev = ""
+    for char in s:
+        rev = char + rev
+    return rev
+
+text = input("Enter a string: ")
+print("Reversed_string", reverse_string(text))    

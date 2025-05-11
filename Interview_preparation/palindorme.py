@@ -6,7 +6,7 @@ if num == reverse:
 else:
     print("not palindrome")
 
-st1 = input("Enter a string: ")()
+st1 = input("Enter a string: ")
 if(st1 == st1[::-1]):
     print("This is a palindrome")
 else:
@@ -25,3 +25,12 @@ else:
 #     print("palindrome")
 # else: 
 #     print("not palindrome") 
+
+
+import calendar
+
+year = int(input("Enter a year: "))
+month = int(input("Enter a month: "))
+
+cal = calendar.month(year, month)
+print(cal)
