@@ -49,7 +49,6 @@ print(second)
 s1 = [7,14,17,18,212,3,4,5,9,11,23,44,55]
 
 s1.sort(reverse=True)
-
 print(s1)
 
 

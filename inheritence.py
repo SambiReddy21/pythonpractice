@@ -47,6 +47,8 @@ person1.say_hi()
 
 """
 What is Inheritance?
+Inheritance allows one class (child) to acquire properties and behaviors of another class (parent). It promotes reusability.
+
 Inheritance is a fundamental concept in Object-Oriented Programming (OOP) that allows a class (child class) to inherit properties and behaviors (methods) from another class (parent class).
 
 Why Use Inheritance?
