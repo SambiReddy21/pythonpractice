@@ -10,7 +10,6 @@ Without list comprehension you will have to write a for statement with a conditi
 
 """
 
-fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]    
 
 newlist = []
 
