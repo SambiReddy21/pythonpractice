@@ -1,0 +1,76 @@
+{
+	"folders": [
+		{
+			"path": "../sirishalatestpython/python_practice_programs/.idea"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/abstract_classes"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/closure_functions"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/collections"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/date_time"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/decorators"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/encapsulation"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/enumerate"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/ExceptionHandling"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/general_programs"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/generators"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/GFG"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/hackerrank"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/inheritance"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/interview_purpose"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/iterators"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/lambda_functions"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/polymorphism"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/property_decorators"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/py_test"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/real_interview_programs"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/regular_expressions"
+		},
+		{
+			"path": "../sirishalatestpython/python_practice_programs/robot_framework"
+		},
+		{
+			"path": "."
+		}
+	]
+}
